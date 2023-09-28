@@ -1,0 +1,26 @@
+<html>
+<head></head>
+<body><br>
+    <div class="row">
+        <div class="col-6">
+            <div class="mb-3">
+                <label for="grados" class="form-label" > Grados a converitr </label>
+                <input type="text" [(ngModel)]="grados" class="from-control" name="grados" placeholder="Grados">
+            </div>
+            <form>
+                <input type="radio" value="fahrenheit" name="grados" [(ngModel)]="tem" class="btn btn-outline-primary">
+                <label for="html"> De Fahrenheit a Centigrados </label><br><br>
+                <input type="radio" value="centigrados" name="grados" [(ngModel)]="tem" class="btn btn-outline-primary">
+                <label for="html"> De Centigrados a Fahrenheit </label><br><br>
+            </form>
+            <div class="mb-3">
+                <button (click)="gradosCF()" class="btn btn-primary">Calcular</button>
+            </div>
+        </div>
+        <div class="col-6">
+            <h2>Resultado : {{resultado}}</h2>
+        </div>
+    </div>
+</body>
+
+</html>
