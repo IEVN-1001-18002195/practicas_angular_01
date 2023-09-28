@@ -9,19 +9,20 @@ export class TemperaturaComponent {
 
   grados: string = '';
   resultado: number = 0;
-  tem: string = '';
+  temp: string = '';
 
-  gradosCF(): void {
-    console.log("Grados", this.grados);
-    console.log("Temperatura", this.tem);
+  gradoscf(): void {
 
-    switch (this.tem) {
+    switch (this.temp) {
       case 'centigrados':
-        this.resultado = (parseInt(this.grados) * 9 / 5) + 32;
+        this.resultado = (parseInt(this.grados) * 9/5) + 32;
         break;
-      case 'fahrenheit':
-        this.resultado = (parseInt(this.grados) - 32) * 5 / 9;
+
+      case 'fahrenheit': {
+        this.resultado = (parseInt(this.grados) - 32) * 5/9;
         break;
+      }
+
     }
   }
 }
