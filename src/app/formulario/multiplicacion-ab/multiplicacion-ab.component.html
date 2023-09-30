@@ -1,0 +1,24 @@
+<body>
+    <div class="row">
+        <div class="container col-12">
+            <mat-form-field>
+                <input matInput [(ngModel)]="num1" type="number" placeholder="Numer">
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput [(ngModel)]="num2" type="number" placeholder="Numer">
+            </mat-form-field>
+            <button mat-raised-button color="primary" (click)="multiplicar()"> Calcular</button>
+        </div>
+        <div class="col-6">
+            <p></p>
+            <label for="num1"> Num 1 es :</label>
+            <p>{{num1}}</p> <br>
+            <label for="num2"> Num 2 es :</label>
+            <p>{{num2}}</p> 
+            <label for="operacion"></label>
+            <p>{{operacion}}</p> 
+            <p> El resultado es: {{res}} </p>
+        </div>
+
+    </div>
+</body>
