@@ -1,0 +1,183 @@
+body {
+    background-image: url(https://thebrandinquirer.files.wordpress.com/2019/07/1-cinepolis-nuevo-redisencc83o-new-logo-redesign-2019-brand-my-f-opinion-1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100px 100px;
+
+}
+
+label {
+
+    margin-bottom: 0%;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 180px;
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 50px;
+    margin-left: 475px;
+    position: relative;
+    width: 180px;
+    padding: 0px;
+    top: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.datos {
+    margin-bottom: 20px;
+    margin-left: 100px;
+    align-items: end;
+}
+
+.Entrada {
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.Entradas {
+    position: relative;
+    margin-left: 5px;
+    margin-top: 80px;
+    width: 600px;
+    height: 320px;
+    border: 3px solid gray;
+    box-sizing: border-box;
+    padding: 20px;
+    border-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+.sali h2{
+    margin-top: 0px;
+}
+
+.sali {
+    position: relative;
+    
+    width: 400px;
+    height: 150px;
+    margin-left: 60%;
+    margin-top: -290px;
+    border: 3px solid gray;
+    box-sizing: border-box;
+    padding: 20px;
+    border-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.salidas {
+    margin-left: 58.5%;
+    margin-top: 5;
+    width: 85px;
+    height: 10px;
+    position: absolute;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+
+}
+
+.let {
+    margin-top: -55px;
+    z-index: 1;
+    margin-left: -100px;
+    color: white;
+
+}
+
+.resultado {
+    width: 275%;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: -40px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: left;
+}
+
+.accion {
+    width: 85px;
+    height: 40px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.acciones {
+    width: 300px;
+    height: 110px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    padding: 20px;
+    border-top: 0px;
+    position: relative;
+    margin-left: 38%;
+    margin-top: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 3px solid gray;
+    box-sizing: border-box;
+    border-top: 0px;
+}
+
+
+
+.no {
+    position: relative;
+    border: 2px solid;
+    box-sizing: border-box;
+    margin: -31 px;
+    width: 56vh;
+    color: white;
+    margin-left: 98px;
+}
+
+.so {
+    position: relative;
+    border: 2px solid;
+    box-sizing: border-box;
+    margin: -33 px;
+    width: 42.5vh;
+    color: black;
+    margin-left: 90px;
+}
+
+.se {
+    position: relative;
+    border: 2px solid;
+    box-sizing: border-box;
+    margin: -33 px;
+    width: 25vh;
+    color: white;
+    margin-left: 110px;
+}
+
+
+.botones {
+        margin-top: 30px;
+        margin-left: 40px;
+        text-align: center;
+        display: flex;
+    }
+
+.espacio {
+      flex: .2;
+    }

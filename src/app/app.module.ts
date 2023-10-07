@@ -9,21 +9,25 @@ import { AppComponent } from './app.component';
 import { TemperaturaComponent } from './formulario/temperatura/temperatura.component';
 import { MultiplicacionAbComponent } from './formulario/multiplicacion-ab/multiplicacion-ab.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MenuComponent } from './menu/menu/menu.component';
+import { MaterialModule } from './material/material/material.module';
+import { CinepolisComponent } from './cine/cinepolis/cinepolis.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     TemperaturaComponent,
-    MultiplicacionAbComponent
+    MultiplicacionAbComponent,
+    MenuComponent,
+    CinepolisComponent
 
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    MatInputModule,
-    MatButtonModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
