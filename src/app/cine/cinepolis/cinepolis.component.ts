@@ -31,7 +31,7 @@ export class CinepolisComponent {
         this.descuento = this.precio_total * 0.85;
         this.precio_total = this.descuento;
       }
-      if (this.boletos >= 3) {
+      if (this.boletos >= 3 && this.boletos <=5) {
         this.descuento = this.precio_total * 0.9;
         this.precio_total = this.descuento;
       }
